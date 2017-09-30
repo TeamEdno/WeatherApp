@@ -3,6 +3,8 @@
 	<head>
 		<title>Weather App</title>
         <link href="./css/main.css" rel="stylesheet">
+        <script src="./scripts/jquery-3.2.1.min.js"> </script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	</head>
 	<body>
 
@@ -16,11 +18,13 @@
         </nav>
 
         <main>
-            <article>
-                <p id="page-container">
-                </p>
-            </article>
+                <div id="page-container">
+                    <div id="image-container">
+                        <img id="backround-home-image" src="./images/backround-1.jpg">
+                    </div>
+                    <h1 id="home-text"> Check the weather of any city in Bulgaria in an instant. </h1>
+                </div>
         </main>
-
+        <script src="./scripts/SwitchHomeImage.js"> </script>
 	</body>
 </html>

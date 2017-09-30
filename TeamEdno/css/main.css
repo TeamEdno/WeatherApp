@@ -4,6 +4,10 @@ header{
     background-color: red;
 }
 
+body{
+    margin: 0px;
+}
+
 nav{
     height: 200px;
     background-color: blue;
@@ -12,7 +16,6 @@ nav{
 main{
     width: 100%;
     height: 500px;
-    background-color: purple;
 }
 
 #logo-image{
@@ -24,4 +27,33 @@ main{
 #name-header{
     display: inline-block;
     margin-left: 10px;
+}
+
+#backround-home-image{
+    opacity: 0.8;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    margin: auto;
+}
+#image-container{
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+    direction: rtl;
+}
+#home-text{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50px; 
+    font-family: 'Roboto', sans-serif;
+}
+#page-container{
+    position: relative;
 }
