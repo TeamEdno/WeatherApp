@@ -6,6 +6,11 @@ header{
 
 body{
     margin: 0px;
+    background-image: url(https://st.depositphotos.com/2013817/3533/v/450/depositphotos_35337353-stock-illustration-seamless-background-with-rain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 nav{
@@ -39,6 +44,7 @@ main{
     display: block;
     margin: auto;
 }
+
 #image-container{
     box-sizing: border-box;
     width: 100%;
@@ -47,6 +53,7 @@ main{
     text-align: center;
     direction: rtl;
 }
+
 #home-text{
     width: 100%;
     position: absolute;
@@ -54,6 +61,8 @@ main{
     top: 50px; 
     font-family: 'Roboto', sans-serif;
 }
+
 #page-container{
     position: relative;
 }
+
