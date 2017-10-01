@@ -28,7 +28,7 @@ main{
 
 #logo-image-back{
     display: inline-block;
-    width: 4%;
+    width: 60px;
     margin-left: 15px;
     position: absolute;
     transform: perspective(600px) rotateY(180deg);
@@ -38,7 +38,7 @@ main{
 
 #logo-image-front{  
     display: inline-block;
-    width: 4%;
+    width: 60px;
     margin-left: 15px;  
     position: absolute;
     transform: perspective(600px) rotateY(0deg);
@@ -65,7 +65,7 @@ main{
 }
 
 #backround-home-image{
-    opacity: 0.8;
+    filter: contrast(60%);
     height: 100%;
     top: 0;
     left: 0;
@@ -90,6 +90,7 @@ main{
     text-align: center;
     top: 50px; 
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 #page-container{
