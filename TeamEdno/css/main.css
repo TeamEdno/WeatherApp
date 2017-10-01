@@ -1,7 +1,10 @@
 /*css document */
 header{
     height: 60px;
-    background-color: red;
+    background-color: transparent;
+    border: 2px solid rgba(192, 192, 192, 0.11);
+    border-radius: 11px;
+    box-shadow: 0 0 0 1.5px #3B3B3B;    
 }
 
 body{
@@ -23,15 +26,42 @@ main{
     height: 500px;
 }
 
-#logo-image{
+#logo-image-back{
     display: inline-block;
     width: 4%;
     margin-left: 15px;
+    position: absolute;
+    transform: perspective(600px) rotateY(180deg);
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+}
+
+#logo-image-front{  
+    display: inline-block;
+    width: 4%;
+    margin-left: 15px;  
+    position: absolute;
+    transform: perspective(600px) rotateY(0deg);
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+}
+
+#flip3d:hover>#logo-image-front{
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+#flip3d:hover>#logo-image-back{
+    transform: perspective(600px) rotateY(0deg);
 }
 
 #name-header{
-    display: inline-block;
-    margin-left: 10px;
+    display:inline-block;
+    margin-left: 90px;
+    vertical-align: top;
+    font-style: italic;
+    font-family: 'Courier New','Times New Roman';
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 #backround-home-image{
