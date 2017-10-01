@@ -18,8 +18,29 @@ body{
 
 nav{
     height: 200px;
-    background-color: blue;
+    background-color: rgba(211, 211, 211, 0);
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto 0 auto
 }
+
+#navigation input[type="button"]{
+    width: 110px;
+    height: 30px;
+    color: darkgray;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Courier New, Courier, monospace;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+}
+
 
 main{
     width: 100%;
