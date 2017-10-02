@@ -2,7 +2,8 @@
 var images = new Array 
 (
     './images/backround-1.jpg',
-    './images/backround-2.jpg'
+    './images/backround-2.jpg',
+    './images/backround-3.jpg'
 );                                                  //should work on making this better this is just for show
 var index = 1;                                      /*starts from 1 so that it selects the second picture 
                                                     from the array if we want we can add more*/

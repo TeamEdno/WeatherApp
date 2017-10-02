@@ -1,18 +1,25 @@
 /*css document */
 header{
-    height: 60px;
-    background-color: transparent;
-    border: 2px solid rgba(192, 192, 192, 0.11);
-    border-radius: 11px;
-    box-shadow: 0 0 0 1.5px #3B3B3B;    
+    height: 70px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #45AEE2;
+}
+
+header:hover {
+    background-image:linear-gradient(
+      to right,
+      #79CFFA 2%,
+      #45AEE2 85%);
 }
 
 body{
     margin: 0px;
     background-image: url(https://st.depositphotos.com/2013817/3533/v/450/depositphotos_35337353-stock-illustration-seamless-background-with-rain.jpg);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
     height: 100%;
 }
 
@@ -41,13 +48,13 @@ nav{
     
 }
 
-
 main{
     width: 100%;
     height: 500px;
 }
 
 #logo-image-back{
+    top: 5px;
     display: inline-block;
     width: 60px;
     margin-left: 15px;
@@ -58,6 +65,7 @@ main{
 }
 
 #logo-image-front{  
+    top: 5px;
     display: inline-block;
     width: 60px;
     margin-left: 15px;  
@@ -77,12 +85,11 @@ main{
 
 #name-header{
     display:inline-block;
+    margin: 0;
     margin-left: 90px;
-    vertical-align: top;
     font-style: italic;
     font-family: 'Courier New','Times New Roman';
     font-weight: lighter;
-    color: rgba(0, 0, 0, 0.4);
 }
 
 #backround-home-image{
