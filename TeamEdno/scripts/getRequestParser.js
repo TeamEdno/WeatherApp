@@ -1,0 +1,11 @@
+parseGetRequest=((getRequest)=>{
+    return{
+        cityName:getRequest.name,
+        wind:getRequest.wind.speed,
+        clouds:getRequest.clouds.all,
+        temperature:getRequest.main.temp,
+        pressure:getRequest.main.pressure,
+        humidity:getRequest.main.humidity,
+        sky:getRequest.weather.description,
+    }
+})
