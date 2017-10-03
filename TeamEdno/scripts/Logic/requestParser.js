@@ -1,5 +1,5 @@
 'use strict'
-parseGetRequest=((getRequest)=>{
+let parseGetRequest=((getRequest)=>{
 
     return{
         cityName:getRequest.responseJSON.name,
