@@ -34,4 +34,7 @@ let getCityUrl= (()=>{
 
     let velikoTurnovo='https://api.openweathermap.org/data/2.5/weather?id=725993&APPID=0d8a1438b002e51fd716aa4e4acafdd7';
 
-})
+    return [sofia,plovdiv,varna,burgas,ruse,staraZagora,pleven,sliven,dobrich,
+        shumen,pernik,haskovo,yambol,pazardzhik,blagoevgrad,velikoTurnovo]
+
+})()
