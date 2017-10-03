@@ -1,6 +1,6 @@
 'use strict'
 
-let getCityUrl= (()=>{
+let getCityUrl= ((args)=>{
 
     let getSofiaUrl=$.get('https://api.openweathermap.org/data/2.5/weather?id=2172797&APPID=0d8a1438b002e51fd716aa4e4acafdd7');
 

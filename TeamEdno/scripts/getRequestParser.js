@@ -1,11 +1,11 @@
 parseGetRequest=((getRequest)=>{
     return{
-        cityName:getRequest.name,
-        wind:getRequest.wind.speed,
-        clouds:getRequest.clouds.all,
-        temperature:getRequest.main.temp,
-        pressure:getRequest.main.pressure,
-        humidity:getRequest.main.humidity,
-        sky:getRequest.weather.description,
+        cityName:getRequest.responseJSON.name,
+        wind:getRequest.responseJSON.wind.speed,
+        clouds:getRequest.responseJSON.clouds.all,
+        temperature:(getRequest.responseJSON.main.temp-273).toFixed(1),
+        pressure:getRequest.responseJSON.main.pressure,
+        humidity:getRequest.responseJSON.main.humidity,
+        sky:getRequest.responseJSON.weather.description,
     }
 })
