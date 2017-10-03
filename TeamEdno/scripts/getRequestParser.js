@@ -1,4 +1,6 @@
+'use strict'
 parseGetRequest=((getRequest)=>{
+
     return{
         cityName:getRequest.responseJSON.name,
         wind:getRequest.responseJSON.wind.speed,
