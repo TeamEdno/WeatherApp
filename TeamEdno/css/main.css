@@ -23,23 +23,20 @@ body{
     height: 100%;
 }
 
-/* nav{
-    height: 200px;
-    background-color: rgba(211, 211, 211, 0);
-    padding: 0 60px;
+
+
+#navigation {
+    margin: auto auto auto 10%;
+}
+
+
+#row {
+    padding: 5px auto auto auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 0 auto 0 auto
-} */
-
-#navigation {
 }
-li {
-    display: inline;
-}
-
 
 main{
     width: 100%;

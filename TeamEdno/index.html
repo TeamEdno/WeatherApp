@@ -16,40 +16,37 @@
         </header>
 
         <nav>
+            <div id="buttons">
+                <h5 id="showRows24Button" onclick="showRows24()">More Cities</button>
+                <h5 id="hideRows24Button" onclick="hideRows24()" style="display:none">Show less..</button>
+            </div>
             <div id="navigation">
-                <div class="topRow">
-                    <ul>
-                            <li id="fakeid1" class ="nav-button-click"  value="Town1">Town1</li>
-                            <li id="fakeid2" class ="nav-button-click"  value="Town2">Town2</li>
-                            <li id="fakeid3" class ="nav-button-click"  value="Town3">Town3</li>
-                            <li id="fakeid4" class ="nav-button-click"  value="Town4">Town4</li>
-                    </ul>
+                <div class="topRow" id="row">
+                    <h4 id="fakeid1" class ="nav-button-click"  value="Town1">Town1</h4>
+                    <h4 id="fakeid2" class ="nav-button-click"  value="Town2">Town2</h4>
+                    <h4 id="fakeid3" class ="nav-button-click"  value="Town3">Town3</h4>
+                    <h4 id="fakeid4" class ="nav-button-click"  value="Town4">Town4</h4>
                 </div>
-                <div class="secondRow">
-                    <ul>
-                            <li id="fakeid5" class ="nav-button-click"  value="Town5">Town5</li>
-                            <li id="fakeid6" class ="nav-button-click"  value="Town6">Town6</li>
-                            <li id="fakeid7" class ="nav-button-click"  value="Town7">Town7</li>
-                            <li id="fakeid8" class ="nav-button-click"  value="Town8">Town8</li>
-                    </ul>
+                <div class="secondToForthRow" style="display:none">
+                    <div class="secondRow" id="row">
+                        <h4 id="fakeid5" class ="nav-button-click"  value="Town5">Town5</h4>
+                        <h4 id="fakeid6" class ="nav-button-click"  value="Town6">Town6</h4>
+                        <h4 id="fakeid7" class ="nav-button-click"  value="Town7">Town7</h4>
+                        <h4 id="fakeid8" class ="nav-button-click"  value="Town8">Town8</h4>
+                    </div>
+                    <div class="thirdRow" id="row">
+                        <h4 id="fakeid9" class ="nav-button-click"  value="Town9">Town9</h4>
+                        <h4 id="fakeid10" class ="nav-button-click"  value="Town10">Town10</h4>
+                        <h4 id="fakeid11" class ="nav-button-click"  value="Town11">Town11</h4>
+                        <h4 id="fakeid12" class ="nav-button-click"  value="Town12">Town12</h4>
+                    </div>
+                    <div class="forthRow" id="row">
+                        <h4 id="fakeid13" class ="nav-button-click"  value="Town13">Town13</h4>
+                        <h4 id="fakeid14" class ="nav-button-click"  value="Town14">Town14</h4>
+                        <h4 id="fakeid15" class ="nav-button-click"  value="Town15">Town15</h4>
+                        <h4 id="fakeid16" class ="nav-button-click"  value="Town16">Town16</h4>
+                    </div>
                 </div>
-                <div class="thirdRow">
-                    <ul>
-                            <li id="fakeid9" class ="nav-button-click"  value="Town9">Town9</li>
-                            <li id="fakeid10" class ="nav-button-click"  value="Town10">Town10</li>
-                            <li id="fakeid11" class ="nav-button-click"  value="Town11">Town11</li>
-                            <li id="fakeid12" class ="nav-button-click"  value="Town12">Town12</li>
-                    </ul>
-                </div>
-                <div class="forthRow">
-                    <ul>
-                            <li id="fakeid13" class ="nav-button-click"  value="Town13">Town13</li>
-                            <li id="fakeid14" class ="nav-button-click"  value="Town14">Town14</li>
-                            <li id="fakeid15" class ="nav-button-click"  value="Town15">Town15</li>
-                            <li id="fakeid16" class ="nav-button-click"  value="Town16">Town16</li>
-                    </ul>
-                </div>
-                
             </div>
         </nav>
 
@@ -63,6 +60,7 @@
         </main>
 	</body>
     <script src="./scripts/Cosmetics/SwitchHomeImage.js"></script>
+    <script src="./scripts/Cosmetics/ShowHideLogic.js"></script>
     <script src="./scripts/Cosmetics/HashChanger.js"></script>
     <script src="./scripts/Logic/requestParser.js"></script>
     <script src="./scripts/Logic/urlContainer.js"></script>
