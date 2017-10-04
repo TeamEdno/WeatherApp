@@ -1,6 +1,5 @@
 /*css document */
 header{
-    height: 70px;
     margin: auto;
     width: 100%;
     display: flex;
@@ -70,12 +69,13 @@ main{
 }
 
 #name-header{
-    display:inline-block;
     margin: 0;
     margin-left: 90px;
     font-style: italic;
     font-family: 'Courier New','Times New Roman';
     font-weight: lighter;
+    padding-top: 17px;
+    padding-bottom: 17px;
     
 }
 
@@ -116,15 +116,15 @@ main{
     width: 200px;
     background-color: limegreen;
     display: flex;
-    vertical-align: middle;
     height: 60px;
 }
 
 .nav-button-click h4{
-    font-size: 18px;
+    font-size: 22px;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    text-align:  center; 
+    text-align: center;
+    margin-top: 15px;
 }
 
 .nav-button-click:hover{
@@ -159,4 +159,13 @@ main{
     height:15px;
     display: none;
     position: absolute;
+}  
+
+.nav-subrow{
+    width: 50%;
+    padding: 5px auto auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

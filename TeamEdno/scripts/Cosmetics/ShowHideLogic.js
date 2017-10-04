@@ -1,12 +1,16 @@
 'use strict'
-$("#showAdditionalCities").click(()=>{
+let showAdditionalCities= ()=>{
     $('#showAdditionalCities').hide();
     $('#hideAdditionalCities').show();
     $('#secondToForthRow').show();
-});
+};
 
-$("#hideAdditionalCities").click(()=>{
+let hideAdditionalCities =()=>{
     $('#showAdditionalCities').show();
     $('#hideAdditionalCities').hide();
     $('#secondToForthRow').hide();
-});
+};
+
+$("#showAdditionalCities").click(showAdditionalCities);
+
+$("#hideAdditionalCities").click(hideAdditionalCities);
