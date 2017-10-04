@@ -1,13 +1,5 @@
 'use strict'
+//this will be given as a return on the $.get(url,(data)=>)
 let parseGetRequest=((getRequest)=>{
-
-    return{
-        cityName:getRequest.responseJSON.name,
-        wind:getRequest.responseJSON.wind.speed,
-        clouds:getRequest.responseJSON.clouds.all,
-        temperature:(getRequest.responseJSON.main.temp-273).toFixed(1),
-        pressure:getRequest.responseJSON.main.pressure,
-        humidity:getRequest.responseJSON.main.humidity,
-        sky:getRequest.responseJSON.weather.description,
-    }
+    //to be implemented
 })
