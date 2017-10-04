@@ -17,10 +17,6 @@ header:hover {
 
 body{
     margin: 0px;
-    background-image: url(https://st.depositphotos.com/2013817/3533/v/450/depositphotos_35337353-stock-illustration-seamless-background-with-rain.jpg);
-    background-position: center;
-    background-repeat: repeat;
-    height: 100%;
 }
 
 
@@ -30,7 +26,7 @@ body{
 }
 
 
-#row {
+.row {
     padding: 5px auto auto auto;
     display: flex;
     align-items: center;
@@ -80,6 +76,7 @@ main{
     font-style: italic;
     font-family: 'Courier New','Times New Roman';
     font-weight: lighter;
+    
 }
 
 #backround-home-image{
@@ -115,3 +112,51 @@ main{
     position: relative;
 }
 
+.nav-button-click{
+    width: 200px;
+    background-color: limegreen;
+    display: flex;
+    vertical-align: middle;
+    height: 60px;
+}
+
+.nav-button-click h4{
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align:  center; 
+}
+
+.nav-button-click:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+#showAdditionalCities,#hideAdditionalCities {
+  border: solid black;
+  border-width: 0 8px 8px 0;
+  display: inline-block;
+  padding: 3px;
+  
+}
+
+#showAdditionalCities:hover, #hideAdditionalCities:hover{
+    cursor: pointer;
+}
+
+#showAdditionalCities{
+     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width:15px;
+    height:15px;
+    position: absolute;
+}
+
+#hideAdditionalCities{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    width:15px;
+    height:15px;
+    display: none;
+    position: absolute;
+}

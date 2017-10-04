@@ -1,12 +1,12 @@
 'use strict'
-function showRows24(){
-    $('#showRows24Button').hide();
-    $('#hideRows24Button').show();
-    $('.secondToForthRow').show();
-}
+$("#showAdditionalCities").click(()=>{
+    $('#showAdditionalCities').hide();
+    $('#hideAdditionalCities').show();
+    $('#secondToForthRow').show();
+});
 
-function hideRows24(){
-    $('#showRows24Button').show();
-    $('#hideRows24Button').hide();
-    $('.secondToForthRow').hide();
-}
+$("#hideAdditionalCities").click(()=>{
+    $('#showAdditionalCities').show();
+    $('#hideAdditionalCities').hide();
+    $('#secondToForthRow').hide();
+});
