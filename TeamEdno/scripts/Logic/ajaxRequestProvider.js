@@ -1,4 +1,6 @@
 'use strict'
-let pullRequest=((url)=>{
-    return $.get(url);
+let pullRequest=((url,htmlParser)=>{
+    return $.get(url,(data)=>{
+        return htmlParser;
+    });
 })

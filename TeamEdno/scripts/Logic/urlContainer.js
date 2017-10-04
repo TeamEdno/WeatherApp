@@ -2,7 +2,7 @@
 
 let getCityUrl= (()=>{
 
-    let sofia='https://api.openweathermap.org/data/2.5/weather?id=2172797&APPID=0d8a1438b002e51fd716aa4e4acafdd7';
+    let sofia='https://api.openweathermap.org/data/2.5/weather?id=727011&APPID=0d8a1438b002e51fd716aa4e4acafdd7';
 
     let plovdiv='https://api.openweathermap.org/data/2.5/weather?id=728193&APPID=0d8a1438b002e51fd716aa4e4acafdd7';
 
