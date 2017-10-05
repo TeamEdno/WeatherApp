@@ -123,7 +123,7 @@ main{
     width: 100%;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 .nav-button-click:hover{
@@ -170,7 +170,7 @@ main{
 }
 
 nav{
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #999999;
 }
