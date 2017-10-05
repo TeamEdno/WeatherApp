@@ -2,13 +2,13 @@
 let showAdditionalCities= ()=>{
     $('#showAdditionalCities').hide();
     $('#hideAdditionalCities').show();
-    $('#secondToForthRow').show();
+    $('#secondToForthRow').slideToggle( "medium" );
 };
 
 let hideAdditionalCities =()=>{
     $('#showAdditionalCities').show();
     $('#hideAdditionalCities').hide();
-    $('#secondToForthRow').hide();
+    $('#secondToForthRow').slideToggle( "medium" );
 };
 
 $("#showAdditionalCities").click(showAdditionalCities);
