@@ -1,6 +1,6 @@
 'use strict'
- let pullRequest = (cityUrl,funk)=>{
+ let pullRequest = (cityUrl,jsonToHTML,createHTML)=>{
     $.get(cityUrl,(data)=>{
-      funk(data);
+      jsonToHTML(data,createHTML);
     });
  };

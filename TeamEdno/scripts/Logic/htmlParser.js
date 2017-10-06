@@ -1,4 +1,4 @@
 'use strict'
-let parseGetRequest=((data)=>{
-    $("#home-info").append("<p>"+data.name +"</>");
+let parseGetRequest=((data,funk)=>{
+    funk(data);
 });

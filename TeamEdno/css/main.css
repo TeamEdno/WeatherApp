@@ -109,7 +109,7 @@ main{
     color: white;
 }
 
-#page-container{
+main{
     position: relative;
 }
 
@@ -213,4 +213,52 @@ footer ul li {
     display: inline-block;
     vertical-align: top;
     border-right: 2px solid #CC6633;
+}
+.inline{
+    text-align: center;
+}
+
+.city-name{
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#city-data{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#city-info-table{
+    border-collapse: collapse;
+    border-style: hidden;
+    width: 100%;
+}
+
+#city-info-table td{
+    border: 3px solid #CC6633;
+    width: 50%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+#temerature-img{
+    margin-left: 20px;
+    width: 50px;
+    display: inline-block;
+}
+
+#temperature{
+    display:flex;
+    flex-wrap: nowrap; 
+    align-items: center;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page-container{
+    margin-top:180px;
 }
