@@ -5,7 +5,7 @@ header{
     display: flex;
     align-items: center;
     background-color: #CC6633;
-    border-bottom: 5px solid rgba(216, 60, 22, 0.63)
+    border-bottom: 5px solid rgba(148, 39, 15, 0.82)
 }
 
 header:hover {
@@ -73,7 +73,7 @@ main{
     margin: 0;
     margin-left: 90px;
     font-style: italic;
-    font-family: 'Courier New','Times New Roman';
+    font-family: 'Indie Flower', cursive;
     font-weight: lighter;
     padding-top: 17px;
     padding-bottom: 17px;
@@ -202,12 +202,15 @@ ul{
 }
 
 footer ul li {
-    color: white;
+    color: rgba(148, 39, 15, 0.82);
+    font-weight: bold;
     margin: 5px;
 }
+
 
 #contact-info,#relative-websites{
     position: relative;
     display: inline-block;
     vertical-align: top;
+    border-right: 2px solid #CC6633;
 }
