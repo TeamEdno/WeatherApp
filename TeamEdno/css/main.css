@@ -5,6 +5,7 @@ header{
     display: flex;
     align-items: center;
     background-color: #CC6633;
+    border-bottom: 5px solid rgba(216, 60, 22, 0.63)
 }
 
 header:hover {
@@ -123,12 +124,18 @@ main{
     width: 100%;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-top: 12px;
+    margin-top: 22px;
 }
 
 .nav-button-click:hover{
     cursor: pointer;
     background-color: #CCCCCC;
+}
+
+#navigationbuttons {
+    padding-left: 40px;
+    padding-top: 20px;
+    /* 20171006 */
 }
 
 #showAdditionalCities,#hideAdditionalCities {
@@ -167,6 +174,10 @@ main{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.nav-button-click {
+    border-bottom: 2px solid #CC6633;
 }
 
 nav{
