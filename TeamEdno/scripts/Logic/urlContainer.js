@@ -6,7 +6,7 @@ let getCityUrl= ((city)=>{
 
     plovdiv:'https://api.openweathermap.org/data/2.5/weather?id=728193&APPID=0d8a1438b002e51fd716aa4e4acafdd7',
 
-    varn:'https://api.openweathermap.org/data/2.5/weather?id=726050&APPID=0d8a1438b002e51fd716aa4e4acafdd7',
+    varna:'https://api.openweathermap.org/data/2.5/weather?id=726050&APPID=0d8a1438b002e51fd716aa4e4acafdd7',
 
     burgas:'https://api.openweathermap.org/data/2.5/weather?id=732770&APPID=0d8a1438b002e51fd716aa4e4acafdd7',
 

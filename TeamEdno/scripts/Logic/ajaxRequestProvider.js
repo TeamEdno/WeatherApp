@@ -1,6 +1,6 @@
 'use strict'
-let pullRequest=((url,htmlParser)=>{
-    return $.get(url,(data)=>{
-        htmlParser.data
+ let pullRequest = (cityUrl,funk)=>{
+    $.get(cityUrl,(data)=>{
+      funk(data);
     });
-})
+ };
