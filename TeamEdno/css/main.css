@@ -138,6 +138,10 @@ main{
     /* 20171006 */
 }
 
+#secondToForthRow{
+    display: none;
+}
+
 #showAdditionalCities,#hideAdditionalCities {
   border:solid #CC6633;
   border-width: 0 8px 8px 0;

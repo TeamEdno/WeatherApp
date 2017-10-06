@@ -1,4 +1,5 @@
 
+$(window).on('hashchange',()=>{ 
   let hash = window.location.hash.slice(1);
   
   let cities=bulgarianCities();
@@ -12,3 +13,4 @@
   let request = pullRequest;
 
   request(cityUrl,htmlParser,jsonToHTMLParser);
+});
