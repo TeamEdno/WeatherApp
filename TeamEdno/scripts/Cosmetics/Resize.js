@@ -28,7 +28,9 @@ let resize = () => {
 
 
 $("#hideAdditionalCities").click(() =>{
+    let scroll = $(window).scrollTop();
     $('nav').unwrap();
+    $(window).scrollTop(scroll);
 })
 
 $(window).resize(resize);
