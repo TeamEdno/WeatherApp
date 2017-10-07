@@ -26,11 +26,11 @@ let resize = () => {
     }
 }
 
-
 $("#hideAdditionalCities").click(() =>{
-    let scroll = $(window).scrollTop();
     $('nav').unwrap();
-    $(window).scrollTop(scroll);
+    $('html, body').animate({
+        scrollTop: $('#flip3d').offset().top
+      }, 1000);
 })
 
 $(window).resize(resize);
