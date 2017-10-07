@@ -1,6 +1,6 @@
 'use strict'
- let pullRequest = (cityUrl,jsonToHTML,createHTML)=>{
+ let pullRequest = (cityUrl, ajaxRequestProvider, jsonToHTML)=>{
     $.get(cityUrl,(data)=>{
-      jsonToHTML(data,createHTML);
+      ajaxRequestProvider(data,jsonToHTML);
     });
  };
