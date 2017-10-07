@@ -7,12 +7,29 @@ let jsonToHTML=(data)=>{
     let humidity=data.main.humidity;
     let pressure=data.main.pressure;
     let wind = data.wind.speed;
-    let img;
+    let img_temp;
+    let img_cloud;
     if(temperature>22){
-        img="hot-image"; 
+        img_temp="hot-image"; 
     }
     else{
-        img="cold-image"; 
+        img_temp="cold-image"; 
+    }
+
+    if(claudiness.includes("light rain")){
+        img_cloud="lightRain-image";
+    }
+    else if(claudiness.includes("moderate rain")){
+        img_cloud="moderateRain-image";
+    }
+    else if(claudiness.includes("heavy") && claudiness.includes("rain")){
+        img_cloud="heavyRain-image";
+    }
+    else if(claudiness.includes("cloud")){
+        img_cloud="cloudy-image";
+    }
+    else{
+        img_cloud="hot-image";
     }
     
     $('main').html(
@@ -28,7 +45,7 @@ let jsonToHTML=(data)=>{
                                     </td>
                                     <td>
                                         <div id="temperature">
-                                            <p>`+temperature +  `°C</p> <img id="temerature-img" src="./images/`+ img +`.jpg">
+                                            <p>`+temperature +  `°C</p> <img id="temerature-img" src="./images/`+ img_temp +`.jpg">
                                         </div>
                                     </td>
                                 </tr>
@@ -37,7 +54,9 @@ let jsonToHTML=(data)=>{
                                         <p>Cloudiness</p>
                                     </td>
                                     <td>
-                                        <p>`+ claudiness +`</p>
+                                        <div id = "claudiness">
+                                            <p>`+ claudiness +`</p> <img id="temerature-img" src="./images/`+ img_cloud +`.jpg">
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
