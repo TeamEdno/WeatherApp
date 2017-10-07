@@ -266,3 +266,27 @@ footer ul li {
     margin-top:180px;
     margin-bottom: 150px;
 }
+
+a:link {
+    color: rgba(148, 39, 15, 0.82); 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgba(148, 39, 15, 0.82);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CC6633;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}

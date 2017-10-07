@@ -1,4 +1,4 @@
-let resize=()=>{ 
+let resize = () => {
     let windowWidth = $("html").width();
     if ($(document).scrollTop() >= $('header').height()) {
         if ($('#nav-wrap').length === 0) {
@@ -16,15 +16,20 @@ let resize=()=>{
         })
     }
     else {
-         let navigation = $("#nav-wrap").contents();
-            $("#nav-wrap").replaceWith(navigation);
-            $("nav").css({
-                'position': 'relative',
-                'top': '',
-                'width': "100%"
-            })
+        let navigation = $("#nav-wrap").contents();
+        $("#nav-wrap").replaceWith(navigation);
+        $("nav").css({
+            'position': 'relative',
+            'top': '',
+            'width': "100%"
+        })
     }
 }
+
+
+$("#hideAdditionalCities").click(() =>{
+    $('nav').unwrap();
+})
 
 $(window).resize(resize);
 $(window).scroll(resize);
