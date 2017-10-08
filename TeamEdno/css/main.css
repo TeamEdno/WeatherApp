@@ -251,13 +251,13 @@ footer ul li {
     font-size: 24px;
 }
 
-#temerature-img{
+#clouds-img, #temperature-img{
     margin-left: 20px;
     width: 50px;
     display: inline-block;
 }
 
-#temperature{
+#temperature, #claudiness{
     display:flex;
     flex-wrap: nowrap; 
     align-items: center;

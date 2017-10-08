@@ -45,7 +45,7 @@ let jsonToHTML=(data)=>{
                                     </td>
                                     <td>
                                         <div id="temperature">
-                                            <p>`+temperature +  `°C</p> <img id="temerature-img" src="./images/`+ img_temp +`.jpg">
+                                            <p>`+temperature +  `°C</p> <img id="temperature-img" src="./images/`+ img_temp +`.jpg">
                                         </div>
                                     </td>
                                 </tr>
@@ -55,7 +55,7 @@ let jsonToHTML=(data)=>{
                                     </td>
                                     <td>
                                         <div id = "claudiness">
-                                            <p>`+ claudiness +`</p> <img id="temerature-img" src="./images/`+ img_cloud +`.jpg">
+                                            <p>`+ claudiness +`</p> <img id="clouds-img" src="./images/`+ img_cloud +`.jpg">
                                         </div>
                                     </td>
                                 </tr>
