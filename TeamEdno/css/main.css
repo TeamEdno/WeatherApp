@@ -60,6 +60,10 @@ main{
     transition: transform .5s linear 0s;
 }
 
+#flip3d{
+    text-decoration: none;
+}
+
 #flip3d:hover>#logo-image-front{
     transform: perspective(600px) rotateY(-180deg);
 }
